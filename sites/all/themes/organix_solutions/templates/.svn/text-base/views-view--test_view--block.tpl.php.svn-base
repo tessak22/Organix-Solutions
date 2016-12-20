@@ -1,0 +1,12 @@
+<!-- div class="tier-4-view-slider">
+	<ul class="slides">
+	    <?php foreach ($view->result as $delta => $item): ?>
+	        <li>
+        		<div class="center-content">
+        			<?php print $view->result[$delta]->_field_data['nid']['entity']->body['und'][0]['value']; ?>
+    			</div>
+			</li>
+	    <?php endforeach; ?>
+	</ul>
+</div-->
+			
